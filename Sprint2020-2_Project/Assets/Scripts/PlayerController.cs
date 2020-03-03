@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public bool isFirstPlayer = true;
     public GameObject bulletPrefab;
     public RingGenerator ringGenerator;
+    Ammo ammoScript;
 
     private Orbiter orbiter;
     public int ringNum;
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         orbiter = GetComponent<Orbiter>();
+        ammoScript = GetComponent<Ammo>();
         changeRing(ringGenerator.numRings);
     }
 
@@ -75,6 +77,7 @@ public class PlayerController : MonoBehaviour
 
     void shoot()
     {
+        if (ammoScript.currentAmmo > 0) { 
         GameObject bullet = Instantiate(bulletPrefab);
         bullet.transform.position = transform.position;
 
@@ -87,6 +90,8 @@ public class PlayerController : MonoBehaviour
         bulletOrbiter.speed = orbiter.speed * 2;
         bulletOrbiter.moveClockwise = orbiter.moveClockwise;
         bulletOrbiter.orbit(50);
+        ammoScript.consumeAmmo();
+        }
     }
 
     void changeRing(int newRingNum)

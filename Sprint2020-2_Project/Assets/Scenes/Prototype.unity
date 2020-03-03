@@ -270,8 +270,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 1, g: 0, b: 0, a: 1}
+      key1: {r: 1, g: 0.5330188, b: 0.5330188, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -567,8 +567,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0, g: 0.454902, b: 1, a: 1}
+      key1: {r: 0.41037738, g: 0.6785977, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -663,6 +663,7 @@ GameObject:
   - component: {fileID: 1699453667}
   - component: {fileID: 1699453666}
   - component: {fileID: 1699453665}
+  - component: {fileID: 1699453669}
   - component: {fileID: 1699453668}
   m_Layer: 0
   m_Name: Player2
@@ -703,7 +704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 1
   targetRadius: 1
-  speed: 300
+  speed: 200
   transitionSpeed: 100
   moveClockwise: 1
 --- !u!4 &1699453667
@@ -737,6 +738,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.3
+--- !u!114 &1699453669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699453664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e504f53e609e5441ad6314e2502766b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentAmmo: 0
+  maxAmmo: 3
 --- !u!1 &1760998887
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,6 +892,7 @@ GameObject:
   - component: {fileID: 1920845611}
   - component: {fileID: 1920845610}
   - component: {fileID: 1920845609}
+  - component: {fileID: 1920845613}
   - component: {fileID: 1920845612}
   m_Layer: 0
   m_Name: Player1
@@ -917,7 +933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 1
   targetRadius: 1
-  speed: 300
+  speed: 200
   transitionSpeed: 100
   moveClockwise: 1
 --- !u!4 &1920845611
@@ -951,3 +967,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.3
+--- !u!114 &1920845613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920845608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e504f53e609e5441ad6314e2502766b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentAmmo: 0
+  maxAmmo: 3
