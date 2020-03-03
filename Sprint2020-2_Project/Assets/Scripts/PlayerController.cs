@@ -38,11 +38,11 @@ public class PlayerController : MonoBehaviour
                 changeRing(ringNum - 1);
             }
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Keypad0))
             {
                 shoot();
             }
-            if (Input.GetKeyDown(KeyCode.C))
+            if (Input.GetKeyDown(KeyCode.Keypad1))
             {
                 orbiter.moveClockwise = !orbiter.moveClockwise;
             }
