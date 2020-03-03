@@ -7,7 +7,13 @@ public class PlayerController : MonoBehaviour
     public float pullSpeed = 1;
     public bool isFirstPlayer = true;
     public GameObject bulletPrefab;
+    private Ammo ammoScript;
     private Orbiter orbiter;
+
+    private void Awake()
+    {
+        ammoScript = GetComponent<Ammo>(); 
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -67,6 +73,7 @@ public class PlayerController : MonoBehaviour
 
     void shoot()
     {
+        if (ammoScript.currentAmmo > 0) { 
         GameObject bullet = Instantiate(bulletPrefab);
         bullet.transform.position = transform.position;
 
@@ -76,5 +83,7 @@ public class PlayerController : MonoBehaviour
         Orbiter bulletOrbiter = bullet.GetComponent<Orbiter>();
         bulletOrbiter.speed = orbiter.speed * 2;
         bulletOrbiter.moveClockwise = orbiter.moveClockwise;
+        ammoScript.consumeAmmo();
+        }
     }
 }
