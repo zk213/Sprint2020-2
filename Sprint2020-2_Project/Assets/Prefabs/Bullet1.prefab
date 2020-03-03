@@ -10,6 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4952055857791606964}
   - component: {fileID: 4952055857791606965}
+  - component: {fileID: 2139557928235154476}
+  - component: {fileID: 6081075717762221512}
+  - component: {fileID: 8053379339905001316}
   m_Layer: 0
   m_Name: Bullet1
   m_TagString: Untagged
@@ -45,8 +48,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 1
+  targetRadius: 1
   speed: 36
+  transitionSpeed: 0
   moveClockwise: 1
+--- !u!114 &2139557928235154476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952055857791606954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33dca9258cbd9054db9806718ca3fdcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &6081075717762221512
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952055857791606954}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000000059604645, y: -0.0018650293}
+  m_Size: {x: 0.16430032, y: 0.33979154}
+  m_Direction: 0
+--- !u!50 &8053379339905001316
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952055857791606954}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &4952055858095316189
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,9 +170,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 498
   m_Sprite: {fileID: 21300000, guid: 17b229e89a8799f47ac5519f82e91138, type: 3}
-  m_Color: {r: 0.83137256, g: 0.32486746, b: 0.14509805, a: 1}
+  m_Color: {r: 1, g: 0.6862745, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -166,8 +220,8 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Time: 0.3
+  m_SortingOrder: 497
+  m_Time: 0.1
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -197,7 +251,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+      key0: {r: 1, g: 0.6862745, b: 0, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
