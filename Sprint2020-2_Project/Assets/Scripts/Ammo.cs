@@ -4,28 +4,22 @@ using UnityEngine;
 
 public class Ammo : MonoBehaviour
 {
-    float reloadTime = 5f;
     public int currentAmmo;
     public int maxAmmo = 10;
-    bool isReloading = false;
+    float regenerateSpeed = 1.5f;
+
 
     // Start is called before the first frame update
     void Start()
     {
         currentAmmo = maxAmmo;
+        StartCoroutine("RegenerateAmmo");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isReloading)
-            return;
-
-        if (currentAmmo <= 0)
-        {
-            StartCoroutine("Reload");
-            isReloading = true;
-        }
+        
     }
 
     public void consumeAmmo()
@@ -33,10 +27,14 @@ public class Ammo : MonoBehaviour
         currentAmmo--;
     }
 
-    IEnumerator Reload()
+    IEnumerator RegenerateAmmo()
     {
-        yield return new WaitForSeconds(reloadTime);
-        currentAmmo = maxAmmo;
-        isReloading = false;
+        yield return new WaitForSeconds(regenerateSpeed);
+        if (currentAmmo < maxAmmo)
+        {
+            currentAmmo++;
+        }
+        StartCoroutine("RegenerateAmmo");
     }
+
 }
