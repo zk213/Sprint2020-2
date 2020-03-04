@@ -176,45 +176,126 @@ public class PlayerController : MonoBehaviour
     {
         if (isFirstPlayer)
         {
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                changeRing(ringNum + 1);
-            }
-
-            if (Input.GetKeyDown(KeyCode.DownArrow))
-            {
-                changeRing(ringNum - 1);
-            }
-
             if (Input.GetKeyDown(KeyCode.LeftControl))
             {
                 shoot();
             }
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            if (Input.GetKeyDown(KeyCode.LeftAlt))
             {
                 orbiter.moveClockwise = !orbiter.moveClockwise;
+            }
+
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                if (transform.position.y >= 0)
+                {
+                    changeRing(ringNum + 1);
+                }
+                else
+                {
+                    changeRing(ringNum - 1);
+                }
+                return;
+            }
+
+            if (Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                if (transform.position.y >= 0)
+                {
+                    changeRing(ringNum - 1);
+                }
+                else
+                {
+                    changeRing(ringNum + 1);
+                }
+                return;
+            }
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                if (transform.position.x >= 0)
+                {
+                    changeRing(ringNum - 1);
+                }
+                else
+                {
+                    changeRing(ringNum + 1);
+                }
+                return;
+            }
+
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                if (transform.position.x >= 0)
+                {
+                    changeRing(ringNum + 1);
+                }
+                else
+                {
+                    changeRing(ringNum - 1);
+                }
+                return;
             }
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                changeRing(ringNum + 1);
-            }
-
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                changeRing(ringNum - 1);
-            }
-
             if (Input.GetKeyDown(KeyCode.A))
             {
                 shoot();
             }
-
-            if (Input.GetKeyDown(KeyCode.W))
+            if (Input.GetKeyDown(KeyCode.S))
             {
                 orbiter.moveClockwise = !orbiter.moveClockwise;
+            }
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                if (transform.position.y >= 0)
+                {
+                    changeRing(ringNum + 1);
+                }
+                else
+                {
+                    changeRing(ringNum - 1);
+                }
+                return;
+            }
+
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                if (transform.position.y >= 0)
+                {
+                    changeRing(ringNum - 1);
+                }
+                else
+                {
+                    changeRing(ringNum + 1);
+                }
+                return;
+            }
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                if (transform.position.x >= 0)
+                {
+                    changeRing(ringNum - 1);
+                }
+                else
+                {
+                    changeRing(ringNum + 1);
+                }
+                return;
+            }
+
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                if (transform.position.x >= 0)
+                {
+                    changeRing(ringNum + 1);
+                }
+                else
+                {
+                    changeRing(ringNum - 1);
+                }
+                return;
             }
         }
     }

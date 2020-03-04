@@ -966,7 +966,7 @@ MonoBehaviour:
   ringGenerator: {fileID: 1854350732}
   ringNum: 0
   isFirstPlayer: 0
-  isPC: 1
+  isPC: 0
 --- !u!114 &1699453666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1220,7 +1220,7 @@ MonoBehaviour:
   ringGenerator: {fileID: 1854350732}
   ringNum: 0
   isFirstPlayer: 1
-  isPC: 1
+  isPC: 0
 --- !u!114 &1920845610
 MonoBehaviour:
   m_ObjectHideFlags: 0
