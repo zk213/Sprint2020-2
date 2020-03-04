@@ -11,7 +11,7 @@ public class RingGenerator : MonoBehaviour
     public GameObject ringPrefab;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         ringRadii = new List<float>();
         createRings();
@@ -25,6 +25,7 @@ public class RingGenerator : MonoBehaviour
 
     private void createRings()
     {
+        numRings = Random.Range(3, 6);
         float ringDistance = MAX_RING_RADIUS / numRings;
 
         for(int i = 1; i <= numRings; i++)
@@ -34,7 +35,7 @@ public class RingGenerator : MonoBehaviour
             ring.transform.localScale = ring.transform.localScale * ringRadius * 2;
 
             SpriteRenderer ringSprite = ring.GetComponent<SpriteRenderer>();
-            float colorVal = (ringRadius / MAX_RING_RADIUS) * 0.5f;
+            float colorVal = (ringRadius / MAX_RING_RADIUS) * 0.2f;
             ringSprite.color = new Color(colorVal, colorVal, colorVal);
             ringSprite.sortingOrder = numRings - i;
             ringRadii.Add(ringRadius);

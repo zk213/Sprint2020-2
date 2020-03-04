@@ -14,6 +14,8 @@ public class Orbiter : MonoBehaviour
     public float transitionSpeed = 0;
     public bool moveClockwise = true;
 
+    private float rotationTotal = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,11 @@ public class Orbiter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.gameEnd)
+        {
+            return;
+        }
+
         radius = Mathf.Lerp(radius, targetRadius, transitionSpeed * Time.deltaTime);
         orbit(speed * Time.deltaTime);
     }
@@ -36,6 +43,20 @@ public class Orbiter : MonoBehaviour
         }
 
         transform.position = transform.position.normalized * radius;
-        transform.RotateAround(Vector3.zero, Vector3.forward, moveDir * (arcLength / radius));
+        float angle = arcLength / radius;
+        transform.RotateAround(Vector3.zero, Vector3.forward, moveDir * angle);
+
+        rotationTotal += angle;
+    }
+
+    // Returns total angular movement during its lifetime, in degrees
+    public float getRotationTotal()
+    {
+        return rotationTotal;
+    }
+
+    public float getDistanceToTargetRadius()
+    {
+        return Mathf.Abs(targetRadius - radius);
     }
 }
