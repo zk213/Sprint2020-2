@@ -16,10 +16,19 @@ public class UIlogic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            ShowTutorialPannel();
+        }
+        else if (Input.GetKeyDown(KeyCode.Space))
+        {
+            ShowTutorialPannel();
+        }
     }
     public void ShowTutorialPannel()
     {
+       // FindObjectOfType<AudioManager>().Play("sfd");
+
         m_animator.SetTrigger("Move");
 
     }
