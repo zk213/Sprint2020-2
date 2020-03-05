@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7529923236196081683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7529923236196081681}
+  - component: {fileID: 7529923236196081680}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7529923236196081681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7529923236196081683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7529923236196081680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7529923236196081683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9312fbca020a3d74a9d6fefeea7fa95b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BGMStart
+    clip: {fileID: 8300000, guid: bd25cc777c5cb984fbb8edbc94dd3a86, type: 3}
+    vloume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BGMLoop
+    clip: {fileID: 8300000, guid: 98ac056b459838e4f8eaab7972a11027, type: 3}
+    vloume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: PlayerExplosionEnd
+    clip: {fileID: 8300000, guid: 205460386b6b5c4478760d5478b1187f, type: 3}
+    vloume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerExplosionMiddle
+    clip: {fileID: 8300000, guid: d748498df0200e848af6fff7dcf66b75, type: 3}
+    vloume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ShootingBullet
+    clip: {fileID: 8300000, guid: 990443a51c30aef498917c2738e1ec9f, type: 3}
+    vloume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerSwitching
+    clip: {fileID: 8300000, guid: 6f5f268e7fe52c948ac12039c867b440, type: 3}
+    vloume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: InsertCoin
+    clip: {fileID: 8300000, guid: fc7d436531d5dbc4f907693ebe34e559, type: 3}
+    vloume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BulletExplosion
+    clip: {fileID: 8300000, guid: 6552625fde9de6040a3a25d655ae9315, type: 3}
+    vloume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Flare
+    clip: {fileID: 8300000, guid: fa9992eba0be3054fafde94f793a9ca9, type: 3}
+    vloume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CountDown
+    clip: {fileID: 8300000, guid: f0a215d45924f9e4d94a827601759f1c, type: 3}
+    vloume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
