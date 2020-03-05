@@ -13,6 +13,15 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f);
         gameEnd = false;
+        LevelManager.Instance.goToNextRound();
         SceneManager.LoadScene(0);
+    }
+
+    public static void rematch()
+    {
+        gameEnd = false;
+        scoreP1 = 0;
+        scoreP2 = 0;
+        //LevelManager.currentRound = 0;
     }
 }

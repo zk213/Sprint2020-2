@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
         orbiter = GetComponent<Orbiter>();
         ammoScript = GetComponent<Ammo>();
         changeRing(ringGenerator.numRings);
+        orbiter.speed = LevelManager.Instance.getRoundType().playerSpeed;
     }
 
     // Update is called once per frame

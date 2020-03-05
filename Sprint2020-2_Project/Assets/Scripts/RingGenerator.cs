@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class RingGenerator : MonoBehaviour
 {
-    private const float MAX_RING_RADIUS = 5;
+    private const float MAX_RING_RADIUS = 5.5f;
+    private const float MIN_RING_RADIUS = 1;
     private List<float> ringRadii;
 
     public int numRings = 3;
     public GameObject ringPrefab;
+    public Color ringColor;
 
     // Start is called before the first frame update
     void Awake()
@@ -25,18 +27,20 @@ public class RingGenerator : MonoBehaviour
 
     private void createRings()
     {
-        numRings = Random.Range(3, 6);
-        float ringDistance = MAX_RING_RADIUS / numRings;
+        numRings = LevelManager.Instance.getRoundType().numRings;
+        float ringDistance = (MAX_RING_RADIUS - MIN_RING_RADIUS) / numRings;
 
         for(int i = 1; i <= numRings; i++)
         {
-            float ringRadius = ringDistance * i;
+            float ringRadius = MIN_RING_RADIUS + ringDistance * i;
             GameObject ring = Instantiate(ringPrefab, transform);
             ring.transform.localScale = ring.transform.localScale * ringRadius * 2;
 
             SpriteRenderer ringSprite = ring.GetComponent<SpriteRenderer>();
             float colorVal = (ringRadius / MAX_RING_RADIUS) * 0.2f;
-            ringSprite.color = new Color(colorVal, colorVal, colorVal);
+            //ringSprite.color = new Color(colorVal, colorVal, colorVal);
+            //ringSprite.color = new Color(ringColor.r, ringColor.g, ringColor.b, colorVal);
+            ringSprite.color = ringColor * colorVal;
             ringSprite.sortingOrder = numRings - i;
             ringRadii.Add(ringRadius);
         }
