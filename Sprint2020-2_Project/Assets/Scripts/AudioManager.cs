@@ -7,20 +7,26 @@ public class AudioManager : MonoBehaviour
     //I learned this script from a Youtuber called Brackeys
     //And i followed his video and typed the code
 
+    private static bool started = false;
 
     //Set a list to store sounds
     public Sound[] sounds;
 
-
     void Start()
     {
-         FindObjectOfType<AudioManager>().Play("BGMStart");
+        if (started == false)
+        {
+            FindObjectOfType<AudioManager>().Play("BGMLoop");
+            started = true;
+        }      
 
         //The sound that i need to play from the beginning of the game which is the BGM
     }
 
     void Awake()
     {
+        DontDestroyOnLoad(this.gameObject);
+
         //Set audio properties through code
         foreach (Sound s in sounds)
         {

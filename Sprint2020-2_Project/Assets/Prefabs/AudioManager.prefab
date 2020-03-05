@@ -64,12 +64,12 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PlayerExplosionMiddle
     clip: {fileID: 8300000, guid: d748498df0200e848af6fff7dcf66b75, type: 3}
-    vloume: 0.5
+    vloume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: ShootingBullet
-    clip: {fileID: 8300000, guid: 990443a51c30aef498917c2738e1ec9f, type: 3}
+    clip: {fileID: 8300000, guid: f30753718d259094babb140374de381a, type: 3}
     vloume: 0.5
     pitch: 1
     loop: 0
@@ -88,7 +88,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: BulletExplosion
     clip: {fileID: 8300000, guid: 6552625fde9de6040a3a25d655ae9315, type: 3}
-    vloume: 0.5
+    vloume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}

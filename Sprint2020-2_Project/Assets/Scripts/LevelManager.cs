@@ -9,6 +9,7 @@ public class LevelManager : MonoBehaviour
     private static int roundTypeIndex = 0;
 
     public List<RoundType> roundTypes = new List<RoundType>();
+    public LevelChanger levelChanger;
 
     #region SINGLETON PATTERN
     public static LevelManager _instance;
@@ -49,6 +50,8 @@ public class LevelManager : MonoBehaviour
     {
         currentRound++;
         roundStartNum++;
+        levelChanger.FadeToLevel(0);
+      
 
         RoundType currentRoundType = getRoundType();
         if(currentRoundType != null)

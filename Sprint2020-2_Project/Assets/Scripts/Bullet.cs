@@ -43,6 +43,7 @@ public class Bullet : MonoBehaviour
             Orbiter otherOrbit = collision.gameObject.GetComponent<Orbiter>();
             if(myOrbit.moveClockwise != otherOrbit.moveClockwise)
             {
+                FindObjectOfType<AudioManager>().Play("BulletExplosion");
                 Destroy(this.gameObject);
             }   
         }

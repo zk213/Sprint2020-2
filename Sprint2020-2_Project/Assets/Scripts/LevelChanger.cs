@@ -32,6 +32,7 @@ public class LevelChanger : MonoBehaviour
 
     public void OnFadeComplete()
     {
+        GameManager.gameEnd = false;
         SceneManager.LoadScene(levelToLoad);
     }
 }

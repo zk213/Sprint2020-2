@@ -12,9 +12,8 @@ public class GameManager : MonoBehaviour
     public static IEnumerator restart()
     {
         yield return new WaitForSeconds(1.5f);
-        gameEnd = false;
         LevelManager.Instance.goToNextRound();
-        SceneManager.LoadScene(0);
+        //SceneManager.LoadScene(0);
     }
 
     public static void rematch()

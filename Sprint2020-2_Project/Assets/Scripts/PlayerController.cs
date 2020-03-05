@@ -336,20 +336,22 @@ public class PlayerController : MonoBehaviour
 
     void shoot()
     {
-        if (ammoScript.currentAmmo > 0) { 
-        GameObject bullet = Instantiate(bulletPrefab);
-        bullet.transform.position = transform.position;
+        if (ammoScript.currentAmmo > 0)
+        { 
+            FindObjectOfType<AudioManager>().Play("ShootingBullet");
+            GameObject bullet = Instantiate(bulletPrefab);
+            bullet.transform.position = transform.position;
 
-        var angle = Mathf.Atan2(transform.position.y, transform.position.x) * Mathf.Rad2Deg;
-        bullet.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            var angle = Mathf.Atan2(transform.position.y, transform.position.x) * Mathf.Rad2Deg;
+            bullet.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
-        Orbiter bulletOrbiter = bullet.GetComponent<Orbiter>();
-        bulletOrbiter.radius = orbiter.radius;
-        bulletOrbiter.targetRadius = orbiter.radius;
-        bulletOrbiter.speed = orbiter.speed * 2;
-        bulletOrbiter.moveClockwise = orbiter.moveClockwise;
-        bulletOrbiter.orbit(50);
-        ammoScript.consumeAmmo();
+            Orbiter bulletOrbiter = bullet.GetComponent<Orbiter>();
+            bulletOrbiter.radius = orbiter.radius;
+            bulletOrbiter.targetRadius = orbiter.radius;
+            bulletOrbiter.speed = orbiter.speed * 2;
+            bulletOrbiter.moveClockwise = orbiter.moveClockwise;
+            bulletOrbiter.orbit(50);
+            ammoScript.consumeAmmo();
         }
     }
 
@@ -381,6 +383,7 @@ public class PlayerController : MonoBehaviour
         Destroy(gameObject.transform.GetChild(0).gameObject);
         GameObject explosion = Instantiate(explosionPrefab);
         explosion.transform.position = transform.position;
+        FindObjectOfType<AudioManager>().Play("PlayerExplosionMiddle");
 
         StartCoroutine(GameManager.restart());
     }

@@ -37,9 +37,9 @@ public class RingGenerator : MonoBehaviour
             ring.transform.localScale = ring.transform.localScale * ringRadius * 2;
 
             SpriteRenderer ringSprite = ring.GetComponent<SpriteRenderer>();
-            float colorVal = (ringRadius / MAX_RING_RADIUS) * 0.2f;
-            ringSprite.color = new Color(colorVal, colorVal, colorVal);
-            //ringSprite.color = new Color(ringColor.r, ringColor.g, ringColor.b, colorVal);
+            float colorVal = (ringRadius / MAX_RING_RADIUS);
+           // ringSprite.color = new Color(colorVal, colorVal, colorVal);
+            ringSprite.color = new Color(ringColor.r, ringColor.g, ringColor.b, Mathf.Lerp(0.5f, 0.2f, colorVal));
             //ringSprite.color = ringColor * colorVal;
             ringSprite.sortingOrder = numRings - i;
             ringRadii.Add(ringRadius);
