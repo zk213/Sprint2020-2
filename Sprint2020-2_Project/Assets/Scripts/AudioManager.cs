@@ -14,6 +14,8 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
+         FindObjectOfType<AudioManager>().Play("BGMStart");
+
         //The sound that i need to play from the beginning of the game which is the BGM
     }
 
