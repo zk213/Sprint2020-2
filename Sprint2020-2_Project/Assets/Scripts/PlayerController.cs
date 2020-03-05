@@ -12,7 +12,8 @@ public class PlayerController : MonoBehaviour
 
     private Orbiter orbiter;
     public int ringNum;
-    private float timeSinceLastRingChange;
+    private float ringChangeCooldown = 0.1f;
+    public float timeSinceLastRingChange;
 
     public bool isFirstPlayer = true;
     public bool isPC = true;
@@ -57,6 +58,11 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Keypad8))
             {
                 orbiter.moveClockwise = !orbiter.moveClockwise;
+            }
+
+            if (timeSinceLastRingChange < ringChangeCooldown)
+            {
+                return;
             }
 
             if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -119,6 +125,11 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.M))
             {
                 orbiter.moveClockwise = !orbiter.moveClockwise;
+            }
+
+            if (timeSinceLastRingChange < ringChangeCooldown)
+            {
+                return;
             }
 
             if (Input.GetKeyDown(KeyCode.W))
@@ -186,6 +197,11 @@ public class PlayerController : MonoBehaviour
                 orbiter.moveClockwise = !orbiter.moveClockwise;
             }
 
+            if (timeSinceLastRingChange < ringChangeCooldown)
+            {
+                return;
+            }
+
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 if (transform.position.y >= 0)
@@ -246,6 +262,11 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.S))
             {
                 orbiter.moveClockwise = !orbiter.moveClockwise;
+            }
+
+            if(timeSinceLastRingChange < ringChangeCooldown)
+            {
+                return;
             }
 
             if (Input.GetKeyDown(KeyCode.R))
@@ -372,6 +393,10 @@ public class PlayerController : MonoBehaviour
             {
                 die();
             }
+        }
+        else if(collision.gameObject.tag == "Flare")
+        {
+            die();
         }
     }
 

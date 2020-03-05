@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numRings: 5
   playerSpeed: 180
-  useFlare: 0
-  flareFrequency: 0
+  useFlare: 1
+  flareFrequency: 2.1
   StarDiameter: 1.3
   infiniteRounds: 0
   totalRounds: 1

@@ -1,0 +1,4459 @@
+fileFormatVersion: 2
+guid: 7f9fec936b7a6374280d4e808589bbcf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -602859865862239275
+    second: SolarFlareV3_0
+  - first:
+      213: -7454243100372471634
+    second: SolarFlareV3_1
+  - first:
+      213: 3130048324776113351
+    second: SolarFlareV3_2
+  - first:
+      213: -695324014044268254
+    second: SolarFlareV3_3
+  - first:
+      213: 7656851396361981810
+    second: SolarFlareV3_4
+  - first:
+      213: 6365147705042188252
+    second: SolarFlareV3_5
+  - first:
+      213: 6489160770757801536
+    second: SolarFlareV3_6
+  - first:
+      213: 1338035711977665471
+    second: SolarFlareV3_7
+  - first:
+      213: -7180184237682245816
+    second: SolarFlareV3_8
+  - first:
+      213: 3473930618074294383
+    second: SolarFlareV3_9
+  - first:
+      213: -4266820120726138118
+    second: SolarFlareV3_10
+  - first:
+      213: -5499398917423216975
+    second: SolarFlareV3_11
+  - first:
+      213: -5242253860431393821
+    second: SolarFlareV3_12
+  - first:
+      213: 2919469253517147065
+    second: SolarFlareV3_13
+  - first:
+      213: -4033232828965540193
+    second: SolarFlareV3_14
+  - first:
+      213: 1439125672246055390
+    second: SolarFlareV3_15
+  - first:
+      213: -8095351960634494883
+    second: SolarFlareV3_16
+  - first:
+      213: 7818328065265923722
+    second: SolarFlareV3_17
+  - first:
+      213: -5592734653345668002
+    second: SolarFlareV3_18
+  - first:
+      213: -2331345432532767617
+    second: SolarFlareV3_19
+  - first:
+      213: -6951813154328702323
+    second: SolarFlareV3_20
+  - first:
+      213: 9018994869324151991
+    second: SolarFlareV3_21
+  - first:
+      213: 8339036370632862493
+    second: SolarFlareV3_22
+  - first:
+      213: 295013633842256475
+    second: SolarFlareV3_23
+  - first:
+      213: -9206718570940649158
+    second: SolarFlareV3_24
+  - first:
+      213: 1473223357454229417
+    second: SolarFlareV3_25
+  - first:
+      213: -232918138265669224
+    second: SolarFlareV3_26
+  - first:
+      213: -5897972609668714263
+    second: SolarFlareV3_27
+  - first:
+      213: -2159130745685044739
+    second: SolarFlareV3_28
+  - first:
+      213: -8662259027389234825
+    second: SolarFlareV3_29
+  - first:
+      213: -8448356274202051143
+    second: SolarFlareV3_30
+  - first:
+      213: 6233626427165792745
+    second: SolarFlareV3_31
+  - first:
+      213: -3687903312952010572
+    second: SolarFlareV3_32
+  - first:
+      213: 7936309863866669974
+    second: SolarFlareV3_33
+  - first:
+      213: 4564174185106106491
+    second: SolarFlareV3_34
+  - first:
+      213: 1539727244299790167
+    second: SolarFlareV3_35
+  - first:
+      213: 8488658834330559607
+    second: SolarFlareV3_36
+  - first:
+      213: -9174469499923190179
+    second: SolarFlareV3_37
+  - first:
+      213: -8850715133851902031
+    second: SolarFlareV3_38
+  - first:
+      213: 3241385421203338919
+    second: SolarFlareV3_39
+  - first:
+      213: -3528782878767323982
+    second: SolarFlareV3_40
+  - first:
+      213: -5599548287794623428
+    second: SolarFlareV3_41
+  - first:
+      213: -6172513838868623525
+    second: SolarFlareV3_42
+  - first:
+      213: -616067321857012056
+    second: SolarFlareV3_43
+  - first:
+      213: -8510554684607922199
+    second: SolarFlareV3_44
+  - first:
+      213: 429507504316048612
+    second: SolarFlareV3_45
+  - first:
+      213: -6823276100968601965
+    second: SolarFlareV3_46
+  - first:
+      213: 6809010889252087855
+    second: SolarFlareV3_47
+  - first:
+      213: -1025056052079248264
+    second: SolarFlareV3_48
+  - first:
+      213: 711587349887343531
+    second: SolarFlareV3_49
+  - first:
+      213: 9094128478224987744
+    second: SolarFlareV3_50
+  - first:
+      213: 1994253704769520899
+    second: SolarFlareV3_51
+  - first:
+      213: 2534821071683614613
+    second: SolarFlareV3_52
+  - first:
+      213: 2216719706280815599
+    second: SolarFlareV3_53
+  - first:
+      213: -8797633689102592234
+    second: SolarFlareV3_54
+  - first:
+      213: 6360544605927576592
+    second: SolarFlareV3_55
+  - first:
+      213: 277536212135218753
+    second: SolarFlareV3_56
+  - first:
+      213: -842328889688006015
+    second: SolarFlareV3_57
+  - first:
+      213: 7103050106162503690
+    second: SolarFlareV3_58
+  - first:
+      213: -4311127482475177407
+    second: SolarFlareV3_59
+  - first:
+      213: 440403727407992301
+    second: SolarFlareV3_60
+  - first:
+      213: 8883719842410964975
+    second: SolarFlareV3_61
+  - first:
+      213: -6095270137279072557
+    second: SolarFlareV3_62
+  - first:
+      213: 1460438887808496754
+    second: SolarFlareV3_63
+  - first:
+      213: 4125940586992768058
+    second: SolarFlareV3_64
+  - first:
+      213: 7583699388822264667
+    second: SolarFlareV3_65
+  - first:
+      213: -5588763934450587570
+    second: SolarFlareV3_66
+  - first:
+      213: 3305668679113708721
+    second: SolarFlareV3_67
+  - first:
+      213: 1497117318602722084
+    second: SolarFlareV3_68
+  - first:
+      213: -1389490497541567412
+    second: SolarFlareV3_69
+  - first:
+      213: -9038240803265738278
+    second: SolarFlareV3_70
+  - first:
+      213: -7657141261340676890
+    second: SolarFlareV3_71
+  - first:
+      213: 418316037019330789
+    second: SolarFlareV3_72
+  - first:
+      213: 1601319949565036169
+    second: SolarFlareV3_73
+  - first:
+      213: 6891669391603900842
+    second: SolarFlareV3_74
+  - first:
+      213: -8240641537162174010
+    second: SolarFlareV3_75
+  - first:
+      213: -1571555668861652448
+    second: SolarFlareV3_76
+  - first:
+      213: 8962119028706324244
+    second: SolarFlareV3_77
+  - first:
+      213: 7399826523551408129
+    second: SolarFlareV3_78
+  - first:
+      213: 9136219340394934001
+    second: SolarFlareV3_79
+  - first:
+      213: -774458547809176489
+    second: SolarFlareV3_80
+  - first:
+      213: 4661704009889069898
+    second: SolarFlareV3_81
+  - first:
+      213: 8744218252532884652
+    second: SolarFlareV3_82
+  - first:
+      213: 6884345054690892714
+    second: SolarFlareV3_83
+  - first:
+      213: -3956654468811739112
+    second: SolarFlareV3_84
+  - first:
+      213: 310760380639895063
+    second: SolarFlareV3_85
+  - first:
+      213: 854201103526355786
+    second: SolarFlareV3_86
+  - first:
+      213: 790945050021357745
+    second: SolarFlareV3_87
+  - first:
+      213: 2110498913126812877
+    second: SolarFlareV3_88
+  - first:
+      213: 5961063204932875889
+    second: SolarFlareV3_89
+  - first:
+      213: -4169782681945044910
+    second: SolarFlareV3_90
+  - first:
+      213: 7822439884224157952
+    second: SolarFlareV3_91
+  - first:
+      213: 6064900543298565073
+    second: SolarFlareV3_92
+  - first:
+      213: 7938799604710457971
+    second: SolarFlareV3_93
+  - first:
+      213: -3227440637089309865
+    second: SolarFlareV3_94
+  - first:
+      213: 419935209966133514
+    second: SolarFlareV3_95
+  - first:
+      213: 384350691851200860
+    second: SolarFlareV3_96
+  - first:
+      213: 4684826041399359265
+    second: SolarFlareV3_97
+  - first:
+      213: 1665402330188394800
+    second: SolarFlareV3_98
+  - first:
+      213: -1641726589506439554
+    second: SolarFlareV3_99
+  - first:
+      213: 2509088562184010739
+    second: SolarFlareV3_100
+  - first:
+      213: -7188837179122352086
+    second: SolarFlareV3_101
+  - first:
+      213: -1075156044685040687
+    second: SolarFlareV3_102
+  - first:
+      213: 7477853610342842804
+    second: SolarFlareV3_103
+  - first:
+      213: -2475746398959940717
+    second: SolarFlareV3_104
+  - first:
+      213: 8495846431581183499
+    second: SolarFlareV3_105
+  - first:
+      213: -5057961819898956612
+    second: SolarFlareV3_106
+  - first:
+      213: 3734353579387085325
+    second: SolarFlareV3_107
+  - first:
+      213: -811688909715560612
+    second: SolarFlareV3_108
+  - first:
+      213: -8879365428628136040
+    second: SolarFlareV3_109
+  - first:
+      213: 8022060793780356395
+    second: SolarFlareV3_110
+  - first:
+      213: 6910340187952239993
+    second: SolarFlareV3_111
+  - first:
+      213: 8045829602632655848
+    second: SolarFlareV3_112
+  - first:
+      213: -1511933403437961038
+    second: SolarFlareV3_113
+  - first:
+      213: -5097623316221773162
+    second: SolarFlareV3_114
+  - first:
+      213: 7741698434273126405
+    second: SolarFlareV3_115
+  - first:
+      213: -8237175327805961337
+    second: SolarFlareV3_116
+  - first:
+      213: 2004170091699491077
+    second: SolarFlareV3_117
+  - first:
+      213: 5139613468233002778
+    second: SolarFlareV3_118
+  - first:
+      213: 6500394884925668545
+    second: SolarFlareV3_119
+  - first:
+      213: -4491025590195347597
+    second: SolarFlareV3_120
+  - first:
+      213: -8610119674802280588
+    second: SolarFlareV3_121
+  - first:
+      213: -4157442268249149446
+    second: SolarFlareV3_122
+  - first:
+      213: 4289109656466531502
+    second: SolarFlareV3_123
+  - first:
+      213: -6913260070507797889
+    second: SolarFlareV3_124
+  - first:
+      213: -2240111480096943840
+    second: SolarFlareV3_125
+  - first:
+      213: -3674557181837276086
+    second: SolarFlareV3_126
+  - first:
+      213: -7915402622439497633
+    second: SolarFlareV3_127
+  - first:
+      213: -5099619658237843301
+    second: SolarFlareV3_128
+  - first:
+      213: 3596707281278169623
+    second: SolarFlareV3_129
+  - first:
+      213: -9085539902336120682
+    second: SolarFlareV3_130
+  - first:
+      213: -3251362549127422933
+    second: SolarFlareV3_131
+  - first:
+      213: -743526014589575354
+    second: SolarFlareV3_132
+  - first:
+      213: 1907913397554722190
+    second: SolarFlareV3_133
+  - first:
+      213: -2463169560232917721
+    second: SolarFlareV3_134
+  - first:
+      213: 747469373539791927
+    second: SolarFlareV3_135
+  - first:
+      213: 4328286184535742681
+    second: SolarFlareV3_136
+  - first:
+      213: -1871614752786969270
+    second: SolarFlareV3_137
+  - first:
+      213: -3893434343425304242
+    second: SolarFlareV3_138
+  - first:
+      213: -6055681697021147570
+    second: SolarFlareV3_139
+  - first:
+      213: 724929713746580755
+    second: SolarFlareV3_140
+  - first:
+      213: -4752384720857031994
+    second: SolarFlareV3_141
+  - first:
+      213: 5188537471758726304
+    second: SolarFlareV3_142
+  - first:
+      213: 9204284593071896935
+    second: SolarFlareV3_143
+  - first:
+      213: 2303568313810850827
+    second: SolarFlareV3_144
+  - first:
+      213: 2949300991304622214
+    second: SolarFlareV3_145
+  - first:
+      213: 4804647599905022170
+    second: SolarFlareV3_146
+  - first:
+      213: 6290645706930162242
+    second: SolarFlareV3_147
+  - first:
+      213: 8178184864492022079
+    second: SolarFlareV3_148
+  - first:
+      213: 6699769929601741809
+    second: SolarFlareV3_149
+  - first:
+      213: -1574890169573731463
+    second: SolarFlareV3_150
+  - first:
+      213: -938203086424491963
+    second: SolarFlareV3_151
+  - first:
+      213: 4719712489327667413
+    second: SolarFlareV3_152
+  - first:
+      213: -3635399694562489686
+    second: SolarFlareV3_153
+  - first:
+      213: 5301342255956721204
+    second: SolarFlareV3_154
+  - first:
+      213: 5893111217233956020
+    second: SolarFlareV3_155
+  - first:
+      213: -8707268335164690235
+    second: SolarFlareV3_156
+  - first:
+      213: 6247212251162893149
+    second: SolarFlareV3_157
+  - first:
+      213: -3324021552050936395
+    second: SolarFlareV3_158
+  - first:
+      213: -7275123100597428690
+    second: SolarFlareV3_159
+  - first:
+      213: -5986238406871602907
+    second: SolarFlareV3_160
+  - first:
+      213: -5663313009274921152
+    second: SolarFlareV3_161
+  - first:
+      213: 7399431787477638587
+    second: SolarFlareV3_162
+  - first:
+      213: -8035488431921106518
+    second: SolarFlareV3_163
+  - first:
+      213: -2323281554833006112
+    second: SolarFlareV3_164
+  - first:
+      213: 6643891829808938709
+    second: SolarFlareV3_165
+  - first:
+      213: -3913545519193604468
+    second: SolarFlareV3_166
+  - first:
+      213: -6217611601212459545
+    second: SolarFlareV3_167
+  - first:
+      213: -3127277741771052796
+    second: SolarFlareV3_168
+  - first:
+      213: 2450066125470938490
+    second: SolarFlareV3_169
+  - first:
+      213: 173235246429572245
+    second: SolarFlareV3_170
+  - first:
+      213: -5871395663554090121
+    second: SolarFlareV3_171
+  - first:
+      213: -6029162781847269235
+    second: SolarFlareV3_172
+  - first:
+      213: -3359902929521933707
+    second: SolarFlareV3_173
+  - first:
+      213: -1844056015129517108
+    second: SolarFlareV3_174
+  - first:
+      213: 4490242623544233954
+    second: SolarFlareV3_175
+  - first:
+      213: -5994294552629156740
+    second: SolarFlareV3_176
+  - first:
+      213: 4506248884706204342
+    second: SolarFlareV3_177
+  - first:
+      213: 4438793459258669158
+    second: SolarFlareV3_178
+  - first:
+      213: -2160517022443335988
+    second: SolarFlareV3_179
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SolarFlareV3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3cab130a94cf7419a3ae95630faf83
+      internalID: -602859865862239275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12f7d3676a257143abe63c77167ec36
+      internalID: -7454243100372471634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7c4138aee6d2f45884318a3d68b324
+      internalID: 3130048324776113351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da597910a21d69148a46bb805ed205d9
+      internalID: -695324014044268254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc9472021b161e438d921e44cf6fd41
+      internalID: 7656851396361981810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4002d469f38a0bf4ea9662a28598451d
+      internalID: 6365147705042188252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef4f54db4066674da6a64c49b65de8c
+      internalID: 6489160770757801536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_7
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7d80f7d726b8a43addaba3b5509aea
+      internalID: 1338035711977665471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c74ba9d7d5cfa439da0ebd9704c370
+      internalID: -7180184237682245816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_9
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640c234bf56616a4fb217d57b4a0b279
+      internalID: 3473930618074294383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4291e2eaa4a79d44ebabb4ba7ffbf27d
+      internalID: -4266820120726138118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_11
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c7854ba9a8e384f80740961cacb9d0
+      internalID: -5499398917423216975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_12
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465278ad4a2905f4b9a800abe61658c7
+      internalID: -5242253860431393821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_13
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 5200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892a060f5597fe448b047c1b23b49c96
+      internalID: 2919469253517147065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f27ec11db24fc14facd1880de215707
+      internalID: -4033232828965540193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6a086aaa3cd5c40898230a4b431d74
+      internalID: 1439125672246055390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c254384ad6697c469601ff9b7067ac8
+      internalID: -8095351960634494883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_17
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb182a9870aa063409c2c09bdf8c09be
+      internalID: 7818328065265923722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfc2d398030ebf4893d8bb612c96313
+      internalID: -5592734653345668002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_19
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fab400ededa3b4799ddcf76768bb08
+      internalID: -2331345432532767617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20da233bb8eca441a5eca7c2c4028a3
+      internalID: -6951813154328702323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_21
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e986ec484412f7443bc93d7b5ae96544
+      internalID: 9018994869324151991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_22
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b6f8ada3088444cb97d3fe50dbcbf9
+      internalID: 8339036370632862493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_23
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec989d20200c244ea13de6d5d4e7da1
+      internalID: 295013633842256475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_24
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec064d9aca9c10941ba172db5ab1af58
+      internalID: -9206718570940649158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_25
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b838277d8a16354ab8a0162e2923e2a
+      internalID: 1473223357454229417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_26
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd34e22fc60dc7a42a83c36127a042b7
+      internalID: -232918138265669224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_27
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 4800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b21a153e91e1b4aa2b1674284598fe
+      internalID: -5897972609668714263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4963fcd7cdb4c964cb0b83430c08e85c
+      internalID: -2159130745685044739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecec7eaff8a24e4eba202a9f19083eb
+      internalID: -8662259027389234825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_30
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340de1e9eb0b980409d77f66fa8dd09d
+      internalID: -8448356274202051143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_31
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336711b8920d5b646ad13ae870c63822
+      internalID: 6233626427165792745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_32
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecc3669672342349bc8608180bd800d
+      internalID: -3687903312952010572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_33
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050ede385426c0649a5154ece4486c35
+      internalID: 7936309863866669974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_34
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8ef342b6ef40d41857cecf419cb85d
+      internalID: 4564174185106106491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_35
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080807624050fbf46a358b0c2ff52dc8
+      internalID: 1539727244299790167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_36
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f8b266f7a6a3f4583f054753f1607e
+      internalID: 8488658834330559607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_37
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e057cfe800783e4eab729983499eba5
+      internalID: -9174469499923190179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_38
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e8e161d58761a418d1bf1cb29e5acc
+      internalID: -8850715133851902031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_39
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fb14bf47ef6d5489e7c4311b6a88c2
+      internalID: 3241385421203338919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_40
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ed0d601121ce343b36be85211f9fb5
+      internalID: -3528782878767323982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_41
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 4400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4a17dd416a74f4480fdc3e49a8db2f
+      internalID: -5599548287794623428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef830a6a4444b8438b6e0893603067b
+      internalID: -6172513838868623525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_43
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b65ed8dc86a964783d09ba0cbf3a91
+      internalID: -616067321857012056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_44
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37df429b580ee124daa284b7fa734fae
+      internalID: -8510554684607922199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_45
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc225f8e2d7d2434eb9bc6a08cabcb6b
+      internalID: 429507504316048612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_46
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295f840b4b1ef2e4bb6bb8af2e8fbf38
+      internalID: -6823276100968601965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_47
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7353db0911d5f48820d1da2b7a62d4
+      internalID: 6809010889252087855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_48
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f33c4cc9a76a04dbac09246d856c40
+      internalID: -1025056052079248264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_49
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddc2824c2ab45342b62d89102789079
+      internalID: 711587349887343531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_50
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f338be50a8de574d9f9888ca3acf297
+      internalID: 9094128478224987744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_51
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847f9881229651d4f9fdf40d8fb9c5c5
+      internalID: 1994253704769520899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_52
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd03b7a30d1fb0a44838a9801a23e01e
+      internalID: 2534821071683614613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_53
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19cea436381872489272353878dcbbf
+      internalID: 2216719706280815599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_54
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2aaa4a95efa4814f98c53d14368532f
+      internalID: -8797633689102592234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_55
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 4000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6141abe303c3df4a8dade9ac55a2882
+      internalID: 6360544605927576592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c0df072b83a484da1812ec6e3f3e76
+      internalID: 277536212135218753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_57
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab74e7361f6377348a97d5d3448fede2
+      internalID: -842328889688006015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_58
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8172dec7f079f754e9250892aa3947e2
+      internalID: 7103050106162503690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_59
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa2ea94628d8034caf4102900340a80
+      internalID: -4311127482475177407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_60
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50974e5fe23c2e4789afbb01b00e8fb
+      internalID: 440403727407992301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_61
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8d586691e151242b81203f62a0e91d
+      internalID: 8883719842410964975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_62
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403fc69c908d43846bf2b91b60d494af
+      internalID: -6095270137279072557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_63
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c420b501f1e768e4884dbf7e4a3164cc
+      internalID: 1460438887808496754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_64
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e985c361198bc46bf79ed4f9de7a1c
+      internalID: 4125940586992768058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_65
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5792fe6179e67ec439bf1de9df49f0af
+      internalID: 7583699388822264667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_66
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0512225f0540cc24db0463805ee0a973
+      internalID: -5588763934450587570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_67
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9066dcd442ee3429bbebdbf58a6917
+      internalID: 3305668679113708721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_68
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220f847ed56251a4b917f314cfc6ff21
+      internalID: 1497117318602722084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_69
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 3600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc71e599704ffb84d9dd25e8843efae3
+      internalID: -1389490497541567412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68314c92667f85849b2def4dddb4332e
+      internalID: -9038240803265738278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_71
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df1c9ca86e2cd044ae43840ad4425bd
+      internalID: -7657141261340676890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_72
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd31986e3bb93654889b68a25a667cd3
+      internalID: 418316037019330789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_73
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d24e52f237889840a33f017e3e07681
+      internalID: 1601319949565036169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_74
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eb0153e3ee58d4b9df0b199e9a226f
+      internalID: 6891669391603900842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_75
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e667ffc486dbd34fa059f9dcaeb2d0c
+      internalID: -8240641537162174010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_76
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2244af54ec7657946adc6fe8069fa007
+      internalID: -1571555668861652448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_77
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2716782ab91379343867e92f839f387e
+      internalID: 8962119028706324244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_78
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808ab0a7bce5b494090fae146196f1e7
+      internalID: 7399826523551408129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_79
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007993a69904abe4a9ae810f62423f6c
+      internalID: 9136219340394934001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_80
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c10bc48b87562849bbb4b4d41fb152d
+      internalID: -774458547809176489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_81
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553c125384038a549a573b2a64bde6fb
+      internalID: 4661704009889069898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_82
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea723009e0971545bd5c629a6815a4f
+      internalID: 8744218252532884652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_83
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 3200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d41e9e85a590e4eaeee1b973f5a57a
+      internalID: 6884345054690892714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d158d7e4fc08a64a9cfe38f4378ccf4
+      internalID: -3956654468811739112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4782422bb59e240a3945da1c471e98
+      internalID: 310760380639895063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_86
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0e58e293cbf8e4898195cf39363ad4
+      internalID: 854201103526355786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_87
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94f0ede91545c140aa2866ecc30a8b3
+      internalID: 790945050021357745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_88
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba199892c85ef604d9737f9b8e7ad2cd
+      internalID: 2110498913126812877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_89
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586cb9d1bccee344599c2c2769c989aa
+      internalID: 5961063204932875889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_90
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e9cfcf56a365c4d8506e730b00860f
+      internalID: -4169782681945044910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_91
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fcace6d3624554c96246af85d96a59
+      internalID: 7822439884224157952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_92
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7b2563bc3a0234d82e3f956ef25baf
+      internalID: 6064900543298565073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_93
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55386ee66bc1d641bec706d029fc4d0
+      internalID: 7938799604710457971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_94
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be4e8b384091c342b4f3bb6019a822d
+      internalID: -3227440637089309865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_95
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fad14b1db47134ab90b4aedfc4dbef
+      internalID: 419935209966133514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_96
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e17986b36707b40b704f8b72e98c35
+      internalID: 384350691851200860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_97
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 2800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b7dfa3ea35cdb4ea566132e0060453
+      internalID: 4684826041399359265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3e4130acedad8488e214c8a6faa820
+      internalID: 1665402330188394800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_99
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968e642fa72a73c498e77ce85eadabef
+      internalID: -1641726589506439554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_100
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1612533871f476c4da2a3de002406bb7
+      internalID: 2509088562184010739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_101
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9e023f541495a449f7f6c0ca407ea9
+      internalID: -7188837179122352086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_102
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7321dfddb30b14aaf72e912690fd79
+      internalID: -1075156044685040687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_103
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa85a029605fe148aaa939ea1d469a1
+      internalID: 7477853610342842804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_104
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5621ba43d1792bc42a6e34efcbcb6022
+      internalID: -2475746398959940717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_105
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a0df664c5fb33468d0015e570fd8f1
+      internalID: 8495846431581183499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_106
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3f2719415b2a147bc6f87fd8bfc765
+      internalID: -5057961819898956612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_107
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72337b27aa96424fb76d41f8e654888
+      internalID: 3734353579387085325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_108
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac1d82be19ea394ebbd12f6debc9ccf
+      internalID: -811688909715560612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_109
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df152ebd5fd6d9a4b8aff83f360de67a
+      internalID: -8879365428628136040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_110
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535e5b6ee58d2474088feba86db059e8
+      internalID: 8022060793780356395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_111
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 2400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ff49d0e95970245b28ea7ebe79b466
+      internalID: 6910340187952239993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a65e6d4390b00040930891e0f129ce8
+      internalID: 8045829602632655848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_113
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f06f8a5ee39d642867889655dc4c2b
+      internalID: -1511933403437961038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_114
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676c4a2b471efd6489647380762a9d86
+      internalID: -5097623316221773162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_115
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9a9222ce64bac44902e82e9f67027f
+      internalID: 7741698434273126405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_116
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeeca574c3e19554e9af1cc765e90a04
+      internalID: -8237175327805961337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_117
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4545683e0b3d04ea37e5fe4b262a8a
+      internalID: 2004170091699491077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_118
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2014a809f34a93e40b89b51b14dad137
+      internalID: 5139613468233002778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_119
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26690cd8c2958a4a8585a3cb0909065
+      internalID: 6500394884925668545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_120
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1fba6f05e97204e89ddb06a60e25b5
+      internalID: -4491025590195347597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_121
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32260fd8972921a4d9d1076e64044069
+      internalID: -8610119674802280588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_122
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1950290c68f6ddc459eb6fbe9145002e
+      internalID: -4157442268249149446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_123
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7e9f56b4102ee41bd9b1c830c0e6eb
+      internalID: 4289109656466531502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_124
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbe4e012129aa24d976e77439b16297
+      internalID: -6913260070507797889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_125
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6c732abb55a8040980217c75dafa7e
+      internalID: -2240111480096943840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658473baa8ed8da42be722f3cb89415e
+      internalID: -3674557181837276086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_127
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea66fd5a8e3a0544b426aa4b0628150
+      internalID: -7915402622439497633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_128
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29b44c7183a06b429b320e481799e0a
+      internalID: -5099619658237843301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_129
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207c715096eb1ac41bf335af4509a29f
+      internalID: 3596707281278169623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_130
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895bd3fc10b80a14fa2053943510d563
+      internalID: -9085539902336120682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_131
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738bad9b5083fb845b88b9227e784e6c
+      internalID: -3251362549127422933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_132
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2023d8750fa8a824a9cacd87f1baa180
+      internalID: -743526014589575354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_133
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0928e0db061d7894394ac390c115d2b5
+      internalID: 1907913397554722190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_134
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76f6ac876f3a744c94b6f2c35d2c21d
+      internalID: -2463169560232917721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_135
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c316704f3cf3a4e841cd703854d290
+      internalID: 747469373539791927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_136
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a9f60125a25ea4d8ba2a298cc03b9c
+      internalID: 4328286184535742681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_137
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f18b24e02f78c42936c6cdd5431701
+      internalID: -1871614752786969270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_138
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a802ee83bd417be409d2a664870838cc
+      internalID: -3893434343425304242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_139
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b37a9a7b2529114c961d208b15e5aea
+      internalID: -6055681697021147570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9fb57fe32254b419d70fcc17a67e22
+      internalID: 724929713746580755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_141
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02a7dd2ed9dbd642a56321d18cbd15e
+      internalID: -4752384720857031994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_142
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6938a9c2e676340a82864627c08781
+      internalID: 5188537471758726304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_143
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335e76e5ba814ab4b8d386f02ded8295
+      internalID: 9204284593071896935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_144
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e769671feb7f847825f6f1ae743ff7
+      internalID: 2303568313810850827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_145
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabda018aad1efa44bd5a8f1b6a13b52
+      internalID: 2949300991304622214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_146
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc32d1dca120e514a99b9d9075bedb2e
+      internalID: 4804647599905022170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_147
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0243975da0eb8264c89916b02422086d
+      internalID: 6290645706930162242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_148
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91793cd320e3d546b14f683a4624587
+      internalID: 8178184864492022079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_149
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748036c53ae947e4ca02a5765fe1dc43
+      internalID: 6699769929601741809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_150
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fd2ba4ab9e8084083bcdaff342ea54
+      internalID: -1574890169573731463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_151
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debaf0651096ff844b2353a9519192e8
+      internalID: -938203086424491963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_152
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc00a07bae847e44698f07887a1f25a5
+      internalID: 4719712489327667413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_153
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537460b561458364398a148b08fa1168
+      internalID: -3635399694562489686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144186c5944a7824d85cdd6be332f773
+      internalID: 5301342255956721204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_155
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7070bab06de0f0d4dafffc12570f77b3
+      internalID: 5893111217233956020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_156
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d817ec918cce34dab4d4e73e2ef5d9
+      internalID: -8707268335164690235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_157
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0e1d856f5e3b845bfd753ce5303a38
+      internalID: 6247212251162893149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_158
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca6f225deb51624998e95c776b737eb
+      internalID: -3324021552050936395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_159
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f18bda771572a6428496b8751056f6c
+      internalID: -7275123100597428690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_160
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff6417cca296ea42a85127ec8275e9b
+      internalID: -5986238406871602907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_161
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac6f2902be97d84793e310c5ea89743
+      internalID: -5663313009274921152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_162
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e2b969a43a69d4789535a25659358c
+      internalID: 7399431787477638587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_163
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75a553835f4e1c4d91a8ca6291ef02d
+      internalID: -8035488431921106518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_164
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3181b89b89a68c468948f44d03d5034
+      internalID: -2323281554833006112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_165
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1a95778f53f1844a35ff22e606c302
+      internalID: 6643891829808938709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_166
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2514ec67e41a7d40bf247f118498aef
+      internalID: -3913545519193604468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_167
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 800
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db006beab2c6978499242c9a477b5955
+      internalID: -6217611601212459545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2051e11d21a523f4eb16df5daea0636b
+      internalID: -3127277741771052796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_169
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56935a9fc6777546a66ccff2b14b3d9
+      internalID: 2450066125470938490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_170
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52cd174eb7a8bf49a34b96eb8d80364
+      internalID: 173235246429572245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_171
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d7fc80fd24848459a9d24f2f33eb8f
+      internalID: -5871395663554090121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_172
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5192fc5189a334eb77cd5b2ea69b52
+      internalID: -6029162781847269235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_173
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f393a54e0ed8c0a418f7a0e5f434eab8
+      internalID: -3359902929521933707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_174
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37838b1c4c32e2c46ae553d2f7df5d7a
+      internalID: -1844056015129517108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_175
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99da58e3650acea408d1fd69952876f3
+      internalID: 4490242623544233954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_176
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fece93b0aee558743a52e53ef42ce92e
+      internalID: -5994294552629156740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_177
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92797762784af7940a5fdb6f2c171f3e
+      internalID: 4506248884706204342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_178
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b180f410f3f1a947808a79d04e75b77
+      internalID: 4438793459258669158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolarFlareV3_179
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 400
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ca4c70ec082924f9f8b199cd8d975d
+      internalID: -2160517022443335988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

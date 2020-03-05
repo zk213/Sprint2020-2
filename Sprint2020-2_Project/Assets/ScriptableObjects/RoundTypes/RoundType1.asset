@@ -15,7 +15,7 @@ MonoBehaviour:
   numRings: 3
   playerSpeed: 130
   useFlare: 0
-  flareFrequency: 0
+  flareFrequency: 2.19
   StarDiameter: 0.5
   infiniteRounds: 0
   totalRounds: 1
