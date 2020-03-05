@@ -25,6 +25,11 @@ public class PlayerController : MonoBehaviour
         ammoScript = GetComponent<Ammo>();
         changeRing(ringGenerator.numRings);
         orbiter.speed = LevelManager.Instance.getRoundType().playerSpeed;
+
+        if(!orbiter.moveClockwise)
+        {
+            transform.Rotate(0, 0, 180);
+        }
     }
 
     // Update is called once per frame
@@ -57,7 +62,7 @@ public class PlayerController : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.Keypad8))
             {
-                orbiter.moveClockwise = !orbiter.moveClockwise;
+                changeDirection();
             }
 
             if (timeSinceLastRingChange < ringChangeCooldown)
@@ -124,7 +129,7 @@ public class PlayerController : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.M))
             {
-                orbiter.moveClockwise = !orbiter.moveClockwise;
+                changeDirection();
             }
 
             if (timeSinceLastRingChange < ringChangeCooldown)
@@ -194,7 +199,7 @@ public class PlayerController : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.LeftAlt))
             {
-                orbiter.moveClockwise = !orbiter.moveClockwise;
+                changeDirection();
             }
 
             if (timeSinceLastRingChange < ringChangeCooldown)
@@ -261,7 +266,7 @@ public class PlayerController : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.S))
             {
-                orbiter.moveClockwise = !orbiter.moveClockwise;
+                changeDirection();
             }
 
             if(timeSinceLastRingChange < ringChangeCooldown)
@@ -321,6 +326,13 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    public void changeDirection()
+    {
+        orbiter.moveClockwise = !orbiter.moveClockwise;
+        transform.Rotate(0, 0, 180);
+    }
+
 
     void shoot()
     {
@@ -386,7 +398,7 @@ public class PlayerController : MonoBehaviour
             if(otherPlayer.getTimeSinceLastRingChange() > 0.1f)
             {
                 //If they are on the same ring and collide, their directions are reversed
-                orbiter.moveClockwise = !orbiter.moveClockwise;
+                changeDirection();
                 return;
             }
             if(otherPlayer.getTimeSinceLastRingChange() < timeSinceLastRingChange)

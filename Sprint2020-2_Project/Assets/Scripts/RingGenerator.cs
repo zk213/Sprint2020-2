@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RingGenerator : MonoBehaviour
 {
-    private const float MAX_RING_RADIUS = 5.5f;
+    private const float MAX_RING_RADIUS = 5f;
     private const float MIN_RING_RADIUS = 1;
     private List<float> ringRadii;
 
