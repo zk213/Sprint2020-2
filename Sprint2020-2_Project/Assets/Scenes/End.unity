@@ -632,6 +632,7 @@ MonoBehaviour:
   playerShips:
   - {fileID: 21300000, guid: e0612fab9ac3be6479ffaa4b8997aaf1, type: 3}
   - {fileID: 21300000, guid: a35dd3c141a07f54c8767d27bdf1728a, type: 3}
+  countDownTimer: 10
 --- !u!4 &741283396
 Transform:
   m_ObjectHideFlags: 0
