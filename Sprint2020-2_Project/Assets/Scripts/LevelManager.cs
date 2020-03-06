@@ -50,7 +50,7 @@ public class LevelManager : MonoBehaviour
     {
         currentRound++;
         roundStartNum++;
-        levelChanger.FadeToLevel(0);
+        levelChanger.FadeToLevel(1);
       
 
         RoundType currentRoundType = getRoundType();
