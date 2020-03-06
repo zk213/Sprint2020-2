@@ -12,7 +12,7 @@ public class RematchBlink : MonoBehaviour
     public Text countDownText;
     public Image playerShipImage;
     public Sprite[] playerShips;
-    int winningPlayer;
+    public int winningPlayer;
     [SerializeField]
     private float countDownTimer;
 
@@ -25,10 +25,12 @@ public class RematchBlink : MonoBehaviour
         if (winningPlayer == 1)
         {
             winnerText.text = "PLAYER 1 DOMINATED!";
+            winnerText.color = new Color(1, 0.5f, 0f);
             playerShipImage.sprite = playerShips[0];
         } else if (winningPlayer == 2)
         {
             winnerText.text = "PLAYER 2 DOMINATED!";
+            winnerText.color = Color.blue;
             playerShipImage.sprite = playerShips[1];
         }
         timer = countDownTimer;
