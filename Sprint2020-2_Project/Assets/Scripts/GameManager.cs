@@ -9,11 +9,20 @@ public class GameManager : MonoBehaviour
     public static int scoreP1 = 0;
     public static int scoreP2 = 0;
 
+    private const int winScore = 100;
+
     public static IEnumerator restart()
     {
         yield return new WaitForSeconds(1.5f);
-        LevelManager.Instance.goToNextRound();
-        //SceneManager.LoadScene(0);
+
+        if(scoreP1 == winScore || scoreP2 == winScore)
+        {
+            FindObjectOfType<LevelChanger>().FadeToLevel(2);
+        }
+        else
+        {
+            LevelManager.Instance.goToNextRound();
+        }
     }
 
     public static void rematch()
@@ -21,6 +30,5 @@ public class GameManager : MonoBehaviour
         gameEnd = false;
         scoreP1 = 0;
         scoreP2 = 0;
-        //LevelManager.currentRound = 0;
     }
 }

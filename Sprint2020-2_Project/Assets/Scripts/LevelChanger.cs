@@ -5,29 +5,17 @@ public class LevelChanger : MonoBehaviour
 {
 
     public Animator animator;
-
     private int levelToLoad;
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            FindObjectOfType<AudioManager>().Play("ShootingBullet", this.gameObject);
-
-            FadeToNextLevel();
-        }
-    }
-
-    public void FadeToNextLevel()
-    {
-        FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
-    }
+    private bool levelChanging = false;
 
     public void FadeToLevel(int levelIndex)
     {
-        levelToLoad = levelIndex;
-        animator.SetTrigger("Swipe");
+        if(!levelChanging)
+        {
+            levelToLoad = levelIndex;
+            animator.SetTrigger("Swipe");
+            levelChanging = true;
+        }
     }
 
     public void OnFadeComplete()
