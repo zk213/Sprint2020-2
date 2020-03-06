@@ -8,14 +8,15 @@ public class Ammo : MonoBehaviour
     public int currentAmmo;
     public int maxAmmo = 3;
     public Image[] bullets;
+    float scaleAmount = 3f;
     float regenerateSpeed = 1.5f;
+    bool isCRrunning = false;
 
 
     // Start is called before the first frame update
     void Start()
     {
         currentAmmo = maxAmmo;
-        StartCoroutine("RegenerateAmmo");
     }
 
     // Update is called once per frame
@@ -56,15 +57,36 @@ public class Ammo : MonoBehaviour
     public void consumeAmmo()
     {
         currentAmmo--;
+        if (isCRrunning == false)
+        {
+            StartCoroutine("RegenerateAmmo");
+        }
     }
 
     IEnumerator RegenerateAmmo()
     {
+        isCRrunning = true;
         yield return new WaitForSeconds(regenerateSpeed);
         if (currentAmmo < maxAmmo)
         {
             currentAmmo++;
         }
+
+        if (currentAmmo == 3)
+        {
+            iTween.ScaleFrom(bullets[0].gameObject, new Vector3(scaleAmount, scaleAmount, 0f), 0.5f);
+        }
+        if (currentAmmo == 2)
+        {
+            iTween.ScaleFrom(bullets[1].gameObject, new Vector3(scaleAmount, scaleAmount, 0f), 0.5f);
+        }
+        if (currentAmmo == 1)
+        {
+            iTween.ScaleFrom(bullets[2].gameObject, new Vector3(scaleAmount, scaleAmount, 0f), 0.5f);
+        }
+
+        isCRrunning = false;
+        if(currentAmmo != maxAmmo)
         StartCoroutine("RegenerateAmmo");
     }
 

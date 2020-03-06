@@ -7,11 +7,13 @@ using UnityEngine.SceneManagement;
 public class Bullet : MonoBehaviour
 {
     private Orbiter orbiter;
+    GameObject cameraObject;
     public GameObject explosionPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
+        cameraObject = GameObject.Find("Main Camera");
         orbiter = GetComponent<Orbiter>();
     }
 
@@ -36,6 +38,11 @@ public class Bullet : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             PlayerController player = collision.gameObject.GetComponent<PlayerController>();
+            if (cameraObject != null)
+            {
+                iTween.ShakePosition(cameraObject, new Vector3(0.75f, 0.75f, 0.5f), 0.5f);
+                iTween.ValueTo(gameObject, iTween.Hash("from", 1.75f, "to", 0f, "onUpdate", "UpdateChroma", "time", 1f));
+            }
             player.die();
             destroySelf();
         }
@@ -43,11 +50,21 @@ public class Bullet : MonoBehaviour
         {
             Orbiter myOrbit = GetComponent<Orbiter>();
             Orbiter otherOrbit = collision.gameObject.GetComponent<Orbiter>();
+
+            if (cameraObject != null)
+            {
+                iTween.PunchPosition(cameraObject, new Vector3(Random.Range(-0.2f, 0.2f), Random.Range(-0.2f, 0.2f), 0), 0.2f);
+            }
             if(myOrbit.moveClockwise != otherOrbit.moveClockwise)
             {
                 destroySelf();
             }   
         }
+    }
+
+    void UpdateChroma(float value)
+    {
+        cameraObject.GetComponent<ChromaticAberration>().chromaticAberration = value;
     }
 
     void destroySelf()
