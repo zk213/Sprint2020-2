@@ -22,6 +22,7 @@ public class RematchBlink : MonoBehaviour
 
     private void Start()
     {
+        GameManager.rematch();
         if (winningPlayer == 1)
         {
             winnerText.text = "PLAYER 1 DOMINATED!";
@@ -30,7 +31,7 @@ public class RematchBlink : MonoBehaviour
         } else if (winningPlayer == 2)
         {
             winnerText.text = "PLAYER 2 DOMINATED!";
-            winnerText.color = Color.blue;
+            winnerText.color = new Color(0, 0.5f, 1f);
             playerShipImage.sprite = playerShips[1];
         }
         timer = countDownTimer;
@@ -54,7 +55,7 @@ public class RematchBlink : MonoBehaviour
             countDownText.text = "0";
             timer = 0.0f;
 
-            Debug.Log("Hello");
+            FindObjectOfType<LevelChanger>().FadeToLevel(0);
         }
 
     }
