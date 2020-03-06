@@ -32,7 +32,7 @@ public class RedGiant : MonoBehaviour
     private void shootFlare()
     {
         GameObject flare = Instantiate(flarePrefab);
-        FindObjectOfType<AudioManager>().Play("Flare");
+        FindObjectOfType<AudioManager>().Play("Flare", flare);
         float angle = Random.Range(0, 360);
         flare.transform.localScale = transform.localScale;
         flare.transform.Rotate(0, 0, angle);

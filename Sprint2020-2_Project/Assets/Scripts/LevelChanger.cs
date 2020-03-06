@@ -13,7 +13,7 @@ public class LevelChanger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Keypad3))
         {
-            FindObjectOfType<AudioManager>().Play("ShootingBullet");
+            FindObjectOfType<AudioManager>().Play("ShootingBullet", this.gameObject);
 
             FadeToNextLevel();
         }

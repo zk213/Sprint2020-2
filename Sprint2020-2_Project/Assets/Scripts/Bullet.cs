@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Bullet : MonoBehaviour
 {
     private Orbiter orbiter;
+    public GameObject explosionPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,7 @@ public class Bullet : MonoBehaviour
         {
             PlayerController player = collision.gameObject.GetComponent<PlayerController>();
             player.die();
+            destroySelf();
         }
         else if(collision.gameObject.tag == "Bullet")
         {
@@ -43,9 +45,20 @@ public class Bullet : MonoBehaviour
             Orbiter otherOrbit = collision.gameObject.GetComponent<Orbiter>();
             if(myOrbit.moveClockwise != otherOrbit.moveClockwise)
             {
-                FindObjectOfType<AudioManager>().Play("BulletExplosion");
-                Destroy(this.gameObject);
+                destroySelf();
             }   
         }
+    }
+
+    void destroySelf()
+    {
+        FindObjectOfType<AudioManager>().Play("BulletExplosion", this.gameObject);
+        Destroy(gameObject.transform.GetChild(0).gameObject);
+        Destroy(gameObject.transform.GetChild(1).gameObject);
+        Destroy(gameObject.transform.GetChild(2).gameObject);
+        GameObject explosion = Instantiate(explosionPrefab);
+        explosion.transform.position = transform.position;
+        GetComponent<CapsuleCollider2D>().enabled = false;
+        Destroy(this.gameObject, 2);
     }
 }

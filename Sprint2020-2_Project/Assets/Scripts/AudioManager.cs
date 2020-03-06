@@ -16,7 +16,7 @@ public class AudioManager : MonoBehaviour
     {
         if (started == false)
         {
-            FindObjectOfType<AudioManager>().Play("BGMLoop");
+            FindObjectOfType<AudioManager>().Play("BGMLoop", gameObject);
             started = true;
         }      
 
@@ -28,20 +28,31 @@ public class AudioManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
 
         //Set audio properties through code
-        foreach (Sound s in sounds)
-        {
-            s.source = gameObject.AddComponent<AudioSource>();
-            s.source.clip = s.clip;
-            s.source.volume = s.vloume;
-            s.source.pitch = s.pitch;
-            s.source.loop = s.loop;
-        }
+        //foreach (Sound s in sounds)
+        //{
+        //    s.source = gameObject.AddComponent<AudioSource>();
+        //    s.source.clip = s.clip;
+        //    s.source.volume = s.vloume;
+        //    s.source.pitch = s.pitch;
+        //    s.source.loop = s.loop;
+        //}
     }
 
     //The code for looking for sound when i need them
-    public void Play(string name)
+    public void Play(string name, GameObject obj)
     {
         Sound s = Array.Find(sounds, sound => sound.name == name);
-        s.source.Play();
+
+        AudioSource aSource = obj.GetComponent<AudioSource>();
+        if(aSource == null)
+        {
+            aSource = obj.AddComponent<AudioSource>();
+        }
+
+        aSource.clip = s.clip;
+        aSource.volume = s.vloume;
+        aSource.pitch = s.pitch;
+        aSource.loop = s.loop;
+        aSource.Play();
     }
 }

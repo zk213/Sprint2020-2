@@ -337,8 +337,8 @@ public class PlayerController : MonoBehaviour
     void shoot()
     {
         if (ammoScript.currentAmmo > 0)
-        { 
-            FindObjectOfType<AudioManager>().Play("ShootingBullet");
+        {
+            FindObjectOfType<AudioManager>().Play("ShootingBullet", this.gameObject);
             GameObject bullet = Instantiate(bulletPrefab);
             bullet.transform.position = transform.position;
 
@@ -381,9 +381,10 @@ public class PlayerController : MonoBehaviour
         }
         GameManager.gameEnd = true;
         Destroy(gameObject.transform.GetChild(0).gameObject);
+        Destroy(gameObject.transform.GetChild(1).gameObject);
         GameObject explosion = Instantiate(explosionPrefab);
         explosion.transform.position = transform.position;
-        FindObjectOfType<AudioManager>().Play("PlayerExplosionMiddle");
+        FindObjectOfType<AudioManager>().Play("PlayerExplosionMiddle", this.gameObject);
 
         StartCoroutine(GameManager.restart());
     }
