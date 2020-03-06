@@ -1,13 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public float pullSpeed = 1;
     public GameObject bulletPrefab;
     public GameObject explosionPrefab;
+    GameObject cameraObject;
     public RingGenerator ringGenerator;
+    public Text player1Text;
+    public Text player2Text;
     Ammo ammoScript;
 
     private Orbiter orbiter;
@@ -21,6 +25,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        cameraObject = GameObject.Find("Main Camera");
         orbiter = GetComponent<Orbiter>();
         ammoScript = GetComponent<Ammo>();
         changeRing(ringGenerator.numRings);
@@ -350,7 +355,13 @@ public class PlayerController : MonoBehaviour
         bulletOrbiter.moveClockwise = orbiter.moveClockwise;
         bulletOrbiter.orbit(50);
         ammoScript.consumeAmmo();
+        //iTween.ValueTo(gameObject, iTween.Hash("from", 1f, "to", 0f, "onUpdate", "UpdateChroma", "time", 0.5f));
         }
+    }
+
+    void UpdateChroma(float value)
+    {
+        cameraObject.GetComponent<ChromaticAberration>().chromaticAberration = value;
     }
 
     void changeRing(int newRingNum)
@@ -369,20 +380,49 @@ public class PlayerController : MonoBehaviour
 
     public void die()
     {
-        if (isFirstPlayer)
-        {
-            GameManager.scoreP2++;
-        }
-        else
-        {
-            GameManager.scoreP1++;
-        }
+        
         GameManager.gameEnd = true;
         Destroy(gameObject.transform.GetChild(0).gameObject);
         GameObject explosion = Instantiate(explosionPrefab);
         explosion.transform.position = transform.position;
 
         StartCoroutine(GameManager.restart());
+        if (isFirstPlayer)
+        {
+            //GameManager.scoreP2++;
+            //iTween.PunchPosition(player2Text.gameObject, new Vector3(25f, 50f, 0f), 2f);
+            //iTween.PunchScale(player2Text.gameObject, new Vector3(5f, 5f, 0f), 2f);
+            iTween.ValueTo(gameObject, iTween.Hash("name", "Player2FontPunch", "from", 70, "to", 30, "onUpdate", "Update2FontSize", "time", 1f));
+            iTween.ValueTo(gameObject, iTween.Hash("from", GameManager.scoreP2, "to", GameManager.scoreP2 + 100, "onUpdate", "UpdatePlayer2Score", "time", 0.5f));
+        }
+        else
+        {
+            //GameManager.scoreP1++;
+            //iTween.PunchPosition(player1Text.gameObject, new Vector3(25f, -50f, 0f), 2f);
+            //iTween.PunchScale(player1Text.gameObject, new Vector3(5f, 5f, 0f), 2f);
+            iTween.ValueTo(gameObject, iTween.Hash("name", "Player1FontPunch", "from", 70, "to", 30, "onUpdate", "Update1FontSize", "time", 1f));
+            iTween.ValueTo(gameObject, iTween.Hash("from", GameManager.scoreP1, "to", GameManager.scoreP1 + 100, "onUpdate", "UpdatePlayer1Score", "time", 0.5f));
+        }
+    }
+
+    void Update1FontSize(int value)
+    {
+        player1Text.fontSize = value;
+    }
+
+    void UpdatePlayer1Score(int value)
+    {
+        GameManager.scoreP1 = value;
+    }
+
+    void Update2FontSize(int value)
+    {
+        player2Text.fontSize = value;
+    }
+
+    void UpdatePlayer2Score(int value)
+    {
+        GameManager.scoreP2 = value;
     }
 
     public float getTimeSinceLastRingChange()
@@ -399,6 +439,8 @@ public class PlayerController : MonoBehaviour
             {
                 //If they are on the same ring and collide, their directions are reversed
                 changeDirection();
+                
+                iTween.ShakePosition(cameraObject, new Vector3(0.5f, 0.5f, 0.5f), 0.2f);
                 return;
             }
             if(otherPlayer.getTimeSinceLastRingChange() < timeSinceLastRingChange)

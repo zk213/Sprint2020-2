@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Bullet : MonoBehaviour
 {
     private Orbiter orbiter;
+    public GameObject cameraObject;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +36,12 @@ public class Bullet : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             PlayerController player = collision.gameObject.GetComponent<PlayerController>();
+            cameraObject = GameObject.Find("Main Camera");
+            if (cameraObject != null)
+            {
+                iTween.ShakePosition(cameraObject, new Vector3(0.5f, 0.5f, 0.5f), 0.5f);
+                iTween.ValueTo(gameObject, iTween.Hash("from", 1.5f, "to", 0f, "onUpdate", "UpdateChroma", "time", 1f));
+            }
             player.die();
         }
         else if(collision.gameObject.tag == "Bullet")
@@ -46,5 +53,10 @@ public class Bullet : MonoBehaviour
                 Destroy(this.gameObject);
             }   
         }
+    }
+
+    void UpdateChroma(float value)
+    {
+        cameraObject.GetComponent<ChromaticAberration>().chromaticAberration = value;
     }
 }
