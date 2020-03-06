@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public float pullSpeed = 1;
     public GameObject bulletPrefab;
     public GameObject explosionPrefab;
+    public Text player1Score;
+    public Text player2Score;
     public RingGenerator ringGenerator;
     Ammo ammoScript;
-
+    GameObject cameraObject;
     private Orbiter orbiter;
     public int ringNum;
     private float ringChangeCooldown = 0.1f;
@@ -21,6 +24,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        cameraObject = GameObject.Find("Main Camera");
         orbiter = GetComponent<Orbiter>();
         ammoScript = GetComponent<Ammo>();
         changeRing(ringGenerator.numRings);
@@ -336,6 +340,11 @@ public class PlayerController : MonoBehaviour
 
     void shoot()
     {
+        if(Mathf.Abs(orbiter.targetRadius - orbiter.radius) > 0.05f)
+        {
+            return;
+        }
+
         if (ammoScript.currentAmmo > 0)
         {
             FindObjectOfType<AudioManager>().Play("ShootingBullet", this.gameObject);
@@ -367,18 +376,13 @@ public class PlayerController : MonoBehaviour
         orbiter.targetRadius = ringGenerator.getRadius(ringNum);
 
         timeSinceLastRingChange = 0;
+
+        FindObjectOfType<AudioManager>().Play("PlayerSwitching", this.gameObject);
     }
 
     public void die()
     {
-        if (isFirstPlayer)
-        {
-            GameManager.scoreP2++;
-        }
-        else
-        {
-            GameManager.scoreP1++;
-        }
+        
         GameManager.gameEnd = true;
         Destroy(gameObject.transform.GetChild(0).gameObject);
         Destroy(gameObject.transform.GetChild(1).gameObject);
@@ -387,6 +391,37 @@ public class PlayerController : MonoBehaviour
         FindObjectOfType<AudioManager>().Play("PlayerExplosionMiddle", this.gameObject);
 
         StartCoroutine(GameManager.restart());
+
+        if (isFirstPlayer)
+        {
+            iTween.ValueTo(gameObject, iTween.Hash("name", "Player2FontPunch", "from", 70, "to", 30, "onUpdate", "UpdateFontSize2", "time", 1f));
+            iTween.ValueTo(gameObject, iTween.Hash("from", GameManager.scoreP2, "to", GameManager.scoreP2 + 100, "onUpdate", "UpdatePlayerScore2", "time", 0.5f));
+        }
+        else
+        {
+            iTween.ValueTo(gameObject, iTween.Hash("name", "Player1FontPunch", "from", 70, "to", 30, "onUpdate", "UpdateFontSize1", "time", 1f));
+            iTween.ValueTo(gameObject, iTween.Hash("from", GameManager.scoreP1, "to", GameManager.scoreP1 + 100, "onUpdate", "UpdatePlayerScore1", "time", 0.5f));
+        }
+    }
+
+    void UpdateFontSize1(int value)
+    {
+        player1Score.fontSize = value;
+    }
+
+    void UpdatePlayerScore1(int value)
+    {
+        GameManager.scoreP1 = value;
+    }
+
+    void UpdateFontSize2(int value)
+    {
+        player2Score.fontSize = value;
+    }
+
+    void UpdatePlayerScore2(int value)
+    {
+        GameManager.scoreP2 = value;
     }
 
     public float getTimeSinceLastRingChange()
@@ -403,6 +438,7 @@ public class PlayerController : MonoBehaviour
             {
                 //If they are on the same ring and collide, their directions are reversed
                 changeDirection();
+                iTween.ShakePosition(cameraObject, new Vector3(0.5f, 0.5f, 0f), 0.2f);
                 return;
             }
             if(otherPlayer.getTimeSinceLastRingChange() < timeSinceLastRingChange)
@@ -412,8 +448,15 @@ public class PlayerController : MonoBehaviour
         }
         else if(collision.gameObject.tag == "Flare")
         {
+            iTween.ShakePosition(cameraObject, new Vector3(0.75f, 0.75f, 0.5f), 0.5f);
+            iTween.ValueTo(cameraObject, iTween.Hash("from", 1.75f, "to", 0f, "onUpdate", "UpdateChroma", "time", 1f));
             die();
         }
+    }
+
+    void UpdateChroma(float value)
+    {
+        cameraObject.GetComponent<ChromaticAberration>().chromaticAberration = value;
     }
 
 }

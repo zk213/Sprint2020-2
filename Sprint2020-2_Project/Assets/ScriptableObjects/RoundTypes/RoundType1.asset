@@ -18,4 +18,4 @@ MonoBehaviour:
   flareFrequency: 2.19
   StarDiameter: 0.5
   infiniteRounds: 0
-  totalRounds: 1
+  totalRounds: 3

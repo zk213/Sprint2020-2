@@ -8,6 +8,7 @@ public class AudioManager : MonoBehaviour
     //And i followed his video and typed the code
 
     private static bool started = false;
+    private static AudioManager audioManagerInstance;
 
     //Set a list to store sounds
     public Sound[] sounds;
@@ -27,6 +28,14 @@ public class AudioManager : MonoBehaviour
     {
         DontDestroyOnLoad(this.gameObject);
 
+        if (audioManagerInstance == null)
+        {
+            audioManagerInstance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
         //Set audio properties through code
         //foreach (Sound s in sounds)
         //{
