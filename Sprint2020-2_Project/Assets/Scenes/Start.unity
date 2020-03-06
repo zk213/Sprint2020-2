@@ -1106,7 +1106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 223.8, y: 52.5}
+  m_AnchoredPosition: {x: 223.79999, y: 52.5}
   m_SizeDelta: {x: 393.8, y: 82.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &814639422
@@ -1238,8 +1238,9 @@ GameObject:
   - component: {fileID: 1483428508}
   - component: {fileID: 1483428507}
   - component: {fileID: 1483428506}
+  - component: {fileID: 1483428510}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: MenuCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1279,7 +1280,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1280, y: 1024}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1294,7 +1295,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1336,6 +1337,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1483428510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483428505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 025d56e574dac764f9bec57ecef509f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneIndexToLoad: 1
 --- !u!1 &1524781562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,6 +1716,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4309704697410762387, guid: 1a283b5c3eaf7f54796d35e41e10d619,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4309704697410762387, guid: 1a283b5c3eaf7f54796d35e41e10d619,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.24
       objectReference: {fileID: 0}
     - target: {fileID: 8930810149489520264, guid: 1a283b5c3eaf7f54796d35e41e10d619,
         type: 3}
