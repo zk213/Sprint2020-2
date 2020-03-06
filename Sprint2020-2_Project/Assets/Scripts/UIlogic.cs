@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class UIlogic : MonoBehaviour
 {
     Animator m_animator;
+    [SerializeField]
+    private GameObject helpUI;
+
+    private bool isHelpOn = true;
 
     // Start is called before the first frame update
     void Start()
@@ -18,20 +22,38 @@ public class UIlogic : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            ShowTutorialPannel();
+            if (isHelpOn)
+            {
+                helpUI.SetActive(false);
+                isHelpOn = false;
+            }
+            else
+            {
+                helpUI.SetActive(true);
+                isHelpOn = true;
+            }
         }
         else if (Input.GetKeyDown(KeyCode.Space))
         {
-            ShowTutorialPannel();
+            if (isHelpOn)
+            {
+                helpUI.SetActive(false);
+                isHelpOn = false;
+            }
+            else
+            {
+                helpUI.SetActive(true);
+                isHelpOn = true;
+            }
         }
     }
-    public void ShowTutorialPannel()
-    {
-       // FindObjectOfType<AudioManager>().Play("sfd");
+    //public void ShowTutorialPannel()
+    //{
+    //   // FindObjectOfType<AudioManager>().Play("sfd");
 
-        m_animator.SetTrigger("Move");
+    //    m_animator.SetTrigger("Move");
 
-    }
+    //}
 
     
 }
