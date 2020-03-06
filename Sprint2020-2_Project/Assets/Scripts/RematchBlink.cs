@@ -23,6 +23,8 @@ public class RematchBlink : MonoBehaviour
     private void Start()
     {
         GameManager.rematch();
+        winningPlayer = GameManager.lastWinner;
+
         if (winningPlayer == 1)
         {
             winnerText.text = "PLAYER 1 DOMINATED!";
@@ -34,6 +36,13 @@ public class RematchBlink : MonoBehaviour
             winnerText.color = new Color(0, 0.5f, 1f);
             playerShipImage.sprite = playerShips[1];
         }
+        else if (winningPlayer == 0)
+        {
+            winnerText.text = "NO CONTEST!";
+            winnerText.color = new Color(1, 0.5f, 1f);
+            playerShipImage.gameObject.SetActive(false);
+        }
+
         timer = countDownTimer;
         StartCoroutine("RematchBlinking");
         StartCoroutine("InsertCoinBlinking");
@@ -59,7 +68,6 @@ public class RematchBlink : MonoBehaviour
         }
 
     }
-
     
 
     IEnumerator RematchBlinking()

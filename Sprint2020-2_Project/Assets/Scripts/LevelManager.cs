@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    private int currentRound = 0;
+    public static int currentRound = 0;
     private static int roundStartNum = 0;
-    private static int roundTypeIndex = 0;
+    public static int roundTypeIndex = 0;
 
     public List<RoundType> roundTypes = new List<RoundType>();
     public LevelChanger levelChanger;
@@ -32,7 +32,6 @@ public class LevelManager : MonoBehaviour
         }
     }
     #endregion
-
 
     // Changes to the round type to the next one in the list, if there is one
     void changeRoundType(int newTypeIndex)

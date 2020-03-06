@@ -8,8 +8,9 @@ public class GameManager : MonoBehaviour
     public static bool gameEnd = false;
     public static int scoreP1 = 0;
     public static int scoreP2 = 0;
+    public static int lastWinner = 1;
 
-    private const int winScore = 100;
+    private const int winScore = 1500;
 
     public static IEnumerator restart()
     {
@@ -17,6 +18,19 @@ public class GameManager : MonoBehaviour
 
         if(scoreP1 == winScore || scoreP2 == winScore)
         {
+            if(scoreP1 > scoreP2)
+            {
+                lastWinner = 1;
+            }
+            else if(scoreP1 < scoreP2)
+            {
+                lastWinner = 2;
+            }
+            else
+            {
+                lastWinner = 0; 
+            }
+
             FindObjectOfType<LevelChanger>().FadeToLevel(2);
         }
         else
@@ -30,5 +44,6 @@ public class GameManager : MonoBehaviour
         gameEnd = false;
         scoreP1 = 0;
         scoreP2 = 0;
+        LevelManager.currentRound = 0;
     }
 }
